@@ -1,0 +1,149 @@
+IT基本用語
+
+■ IT
+IT：情報技術
+ICT：個人発信を含む情報技術。
+IoT：今までインターネットにつながっていなかったものをネットに繋げること。
+
+■ OS
+OS：動作システム、ハードウェア同士の仲介を行う。
+Windows：
+macOS (Mac OS X)：
+UNIX：WindowsやMac以前から存在するOS。
+Linux：UNIXを元に作られたオープンソースOS。オリジナルをLinuxカーネル、様々な企業や団体が作ったLinuxをLinuxディストリビューションと呼ぶ。
+
+■ 言語・環境
+マークアップ／フロントエンド
+HTML
+CSS
+JavaScript
+jQuery(ジェイクエリー）：JavaScriptのライブラリの一つ。簡単なCSS、よく使われる画面効果などのJavaScriptプログラムをまとめたソースファイル。
+Java SE：Standard Edition　Javaの基本機能をまとめたもの。
+
+サーバーサイド
+.NET（C#, VB）：マイクロソフト開発のアプリケーション開発・実行環境のこと。
+Java
+Java SE
+Java EE（Jakarta EE）：Java Platform,Enterprise Edition 企業向けウェブアプリ開発用の機能セット。
+Perl：テキスト処理を得意とする言語。
+PHP：動的なWebページ作成用の言語で、ウェブサーバー側で処理が行われる。
+Ruby：Ruby on Railsと組み合わせて使えるスクリプト言語。
+
+■ サーバーソフト
+Apache（アパッチ）：オープンソースのWebサーバーソフトウェア。
+Nginx（エンジンエックス）：Apacheに次ぐWebサーバーソフトウェア。
+IIS：マイクロソフト提供のWebサーバーソフトウェア。
+
+
+■ SQL
+SQL
+DB2
+MySQL
+Maria DB
+Oracle DB
+PostgreSQL
+SQLite
+SQL Server
+CRUD
+トランザクション
+コミット
+ロールバック
+排他制御（排他ロック）
+楽観ロック
+悲観ロック
+実行計画
+チューニング
+パフォーマンス
+スロークエリ
+クエリログ
+IDE（統合開発環境）
+Eclipse
+NetBeans
+SpringToolSuite
+DBツール
+A5:SQL Mk-2
+pgAdmin
+DBeaver
+MySQL Workbench
+Sequel Pro
+TeamSQL
+
+■ 肩書
+PM
+PL
+PG（PE）
+SE
+デザイナー
+エンジニア
+フロントエンド・エンジニア
+サーバーサイド・エンジニア
+バックエンド・エンジニア
+
+■ UI（ユーザーインターフェース）
+UI
+CUI
+GUI
+
+■ ファイル／ディレクトリ
+ファイル
+拡張子
+ディレクトリ：フォルダと同義。
+ルート・ディレクトリ
+カレント・ディレクトリ：現在開かれているフォルダを指す。
+パス
+絶対パス
+相対パス
+
+■ ネットワーク
+LAN
+WAN
+クライアント
+サーバー
+
+■ 各種プロトコル
+HTTP
+FTP
+HTTPS
+SSL
+SSH
+ポート、ポート番号
+HTTP、FTP、SSHの各ポート番号
+ファイアウォール
+TCP
+
+■ IPアドレス
+IPアドレス
+グローバルIPアドレス
+プライベートIPアドレス
+
+■ ドメイン
+ドメイン
+DNS
+VPN
+ブリッジ
+プロキシサーバー
+
+■ 電子メール
+SMTP
+POP
+IMAP
+
+■ セッションとクッキー
+セッション
+クッキー
+キャッシュ
+
+■ DB（データベース）について
+インデックス
+
+■ テストについて
+フロー
+
+■ チケット管理ツール
+タスク
+
+■ バージョン管理
+Git
+SVN
+デグレ
+マージツール
