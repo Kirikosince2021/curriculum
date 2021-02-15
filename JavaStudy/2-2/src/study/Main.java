@@ -10,6 +10,6 @@ public class Main {
     	Account account = new Account("hoge", 123, "abc123");
 
         // ② ①のインスタンス変数より、アカウント情報をコンソール出力するメソッドを呼び出しなさい。
-    	Account.printAccountInfo(account);
+    	account.printAccountInfo();
     }
 }
