@@ -12,7 +12,7 @@ package study;
         // 尚、「どのクラスから呼び出しているか」を明確にするため、plus()には呼び出し元のキーワードを付与すること。
     	System.out.println("plusメソッドの引数が一つの場合：" + Calculator.plus(10));
     	System.out.println("plusメソッドの引数が二つの場合：" + Calculator.plus(15,15));
-    	System.out.println("plusメソッドの引数が三つの場合：" + Calculator.plus(30,30));
+    	System.out.println("plusメソッドの引数が三つの場合：" + Calculator.plus(20,20,20));
 
     }
 }
