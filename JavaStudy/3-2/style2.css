@@ -1,0 +1,47 @@
+.contents {
+    width: 400px;
+}
+.blue_top {
+    height: 100px;
+    width: 400px;
+    background-color: #141f40;
+}
+.green_middle_left {
+    width: 150px;
+    height: 250px;
+    background-color: #80bfa8;
+    float:left;
+}
+.lime_middle_top {
+    width: 150px;
+    height: 50px;
+    background-color: #dbd400;
+    float:left;
+}
+.navy_middle_middle {
+    width: 150px;
+    height: 100px;
+    background-color: #0093b7;
+    margin-top:50px;
+}
+.red_middle_bottom {
+    width: 250px;
+    height: 100px;
+    background-color: #8c2727;
+    float:left;
+}
+.orange_middle_right {
+    width:100px;
+    height: 150px;
+    background-color: #ff9e6b;
+    float:right;
+}
+.yellow_bottom {
+    width: 400px;
+    height: 100px;
+    background-color: #d98d30;
+    float:left;
+}
+.middle_layer_puzzle {
+    float:left;
+}

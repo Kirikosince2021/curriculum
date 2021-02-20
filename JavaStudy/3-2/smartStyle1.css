@@ -1,0 +1,14 @@
+@media screen and (max-width: 767px) {
+    .contents {
+        width: 300px;
+    }
+    .green_middle_left {
+        width: 100px;
+    }
+    .lime_middle_top {
+        width: 125px;
+    }
+    .orange_middle_right {
+        width: 75px;
+    }
+}
