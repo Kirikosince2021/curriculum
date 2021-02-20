@@ -1,0 +1,11 @@
+@media screen and (max-width: 767px) {
+    .contents {
+        width: 250px;
+    }
+    .red_middle_right {
+        width: 100px;
+    }
+    .yellow_bottom {
+        width: 250px;
+    }
+}
