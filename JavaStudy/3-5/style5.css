@@ -1,0 +1,47 @@
+.contents {
+    width: 600px;
+    height: 600px;
+}
+.first_layer {
+    height: 150px;
+}
+.yellow {
+    background-color: #FFFF00;
+    height: 150px;
+}
+.second_layer {
+    height: 150px;
+    display: flex;
+}
+.lightblue {
+    background-color: #33FFFF;
+    width: 200px;
+}
+.red {
+    background-color: #FF0000;
+    width: 200px;
+}
+.blue {
+    background-color: #0000FF;
+    width: 200px;
+}
+.third_layer {
+    height: 150px;
+    display: flex;
+}
+.lightgreen {
+    background-color: #00FF00;
+    width: 450px;
+}
+.pink {
+    background-color: #FF00FF;
+    width: 150px;
+}
+.forth_layer {
+    height: 150px;
+    display: flex;
+}
+.lightblue2 {
+    background-color: #33FFFF;
+    width: 600px;
+}
