@@ -1,47 +1,54 @@
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
 .contents {
+    height: 450px;
     width: 400px;
 }
-.blue_top {
+.blue {
+    background-color: #141f40;
     height: 100px;
     width: 400px;
-    background-color: #141f40;
 }
-.green_middle_left {
+.green {
+    background-color: #80dfa8;
     width: 150px;
     height: 250px;
-    background-color: #80bfa8;
     float:left;
 }
-.lime_middle_top {
+.mid_puz {
+    margin-left: 150px;
+    height: 150px;
+    width: 250px;
+}
+.lime {
+    background-color: #dbd400;
     width: 150px;
     height: 50px;
-    background-color: #dbd400;
     float:left;
 }
-.navy_middle_middle {
+.navy {
+    background-color: #0093b7;
     width: 150px;
     height: 100px;
-    background-color: #0093b7;
-    margin-top:50px;
-}
-.red_middle_bottom {
-    width: 250px;
-    height: 100px;
-    background-color: #8c2727;
     float:left;
 }
-.orange_middle_right {
-    width:100px;
-    height: 150px;
+.orange {
     background-color: #ff9e6b;
+    width: 100px;
+    height: 150px;
     float:right;
 }
-.yellow_bottom {
-    width: 400px;
+.red {
+    background-color: #8c2727;
+    width: 250px;
     height: 100px;
-    background-color: #d98d30;
-    float:left;
+    float:right;
 }
-.middle_layer_puzzle {
-    float:left;
+.yellow {
+    background-color: #d98d30;
+    height: 100px;
+    width: 400px;
 }
