@@ -1,3 +1,8 @@
+.clearfix::after {
+    content:"";
+    display: block;
+    clear: both;
+}
 .blue {
     width: 400px;
     height: 100px;
@@ -11,13 +16,19 @@
     width: 150px;
     height: 250px;
     background-color: #80bfa8;
-    float: left;
+    float:left;
 }
 .lime {
     width: 150px;
     height: 50px;
     background-color: #dbd400;
-    float: left;
+    float:left;
+}
+.orange {
+    width: 100px;
+    height: 150px;
+    background-color: #ff9e6b;
+    float: right;
 }
 .navy {
     width: 150px;
@@ -25,17 +36,12 @@
     background-color: #0093b7;
     float: left;
 }
-.orange {
-    width: 100px;
-    height: 150px;
-    background-color: #ff9e6b;
-    margin-left: 300px;
-}
 .red {
     width: 250px;
     height: 100px;
     background-color: #8c2727;
-    float: right;
+    float: left;
+
 }
 .yellow {
     width: 400px;
