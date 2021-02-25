@@ -1,0 +1,12 @@
+@media screen and (max-width: 479px) {
+    .blue {
+        width: 200px;
+        height: 200px;
+        position: relative;
+    }
+    .rose_boxes {
+        position: absolute;
+        left: 70px;
+        display: none;
+    }
+}

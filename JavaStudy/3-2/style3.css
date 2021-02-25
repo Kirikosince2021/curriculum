@@ -1,0 +1,44 @@
+.blue {
+    width: 400px;
+    height: 100px;
+    background-color: #141f40;
+}
+.middle {
+    width: 400px;
+    height: 250px;
+}
+.green {
+    width: 150px;
+    height: 250px;
+    background-color: #80bfa8;
+    float: left;
+}
+.lime {
+    width: 150px;
+    height: 50px;
+    background-color: #dbd400;
+    float: left;
+}
+.navy {
+    width: 150px;
+    height: 100px;
+    background-color: #0093b7;
+    float: left;
+}
+.orange {
+    width: 100px;
+    height: 150px;
+    background-color: #ff9e6b;
+    margin-left: 300px;
+}
+.red {
+    width: 250px;
+    height: 100px;
+    background-color: #8c2727;
+    float: right;
+}
+.yellow {
+    width: 400px;
+    height: 100px;
+    background-color: #d98d30;
+}
