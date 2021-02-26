@@ -8,27 +8,31 @@
     height: 100px;
     background-color: #141f40;
 }
-.middle {
-    width: 400px;
-    height: 250px;
+.middle_left {
+    width: 150px;
+    float: left;
 }
 .green {
     width: 150px;
     height: 250px;
     background-color: #80bfa8;
-    float:left;
 }
-.lime {
-    width: 150px;
-    height: 50px;
-    background-color: #dbd400;
-    float:left;
+.middle_right {
+    width: 250px;
+    float: left;
 }
 .orange {
     width: 100px;
     height: 150px;
     background-color: #ff9e6b;
     float: right;
+}
+.lime {
+    width: 150px;
+    height: 50px;
+    background-color: #dbd400;
+    float:left;
+
 }
 .navy {
     width: 150px;
