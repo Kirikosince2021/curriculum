@@ -1,12 +1,32 @@
 @media screen and (max-width: 479px) {
     .blue {
         width: 200px;
-        height: 200px;
-        position: relative;
+        height: 220px;
     }
     .rose_boxes {
-        position: absolute;
         left: 70px;
-        display: none;
+        display: block;
+    }
+    .green {
+        width: 200px;
+        height: 100px;
+        float: none;
+    }
+    .red {
+        margin-left: 0;
+        width: 200px;
+        height: 180px;
+    }
+    .orange_boxes {
+        top: 20px;
+        left: 30px;
+    }
+    .orange_box {
+        width: 130px;
+        height: 30px;
+    }
+    .yellow {
+        width: 200px;
+        height: 100px;
     }
 }
