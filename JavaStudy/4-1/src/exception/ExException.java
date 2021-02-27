@@ -106,6 +106,8 @@ public class ExException {
      */
     // ここへ記述
     public static void throwsNP () throws NullPointerException {
+    	String np = null;
+    	System.out.println(np.length());
     	System.out.println(CONST_MSG_NULLPO);
     }
 
