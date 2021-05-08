@@ -1,5 +1,5 @@
 <form action="result.php" method="post">
-  名前：<input type="text" name="my_name" />
+  名前：<input type="text" name="name" />
   <br>
   メールアドレス：<input type="text" name="mail">
   <br>
