@@ -1,0 +1,16 @@
+body {
+    background-color: gray;
+    color:white;
+}
+h1 {
+    width: 100%;
+    text-align: center;
+    border-bottom: white solid 3px;
+}
+.form1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    
+}
