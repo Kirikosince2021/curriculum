@@ -5,7 +5,7 @@ function addText() {
     //②出力欄のテキストエリアを取得
     let outputArea = document.querySelector("#area1");
     //③出力欄に入力された文字列を足していく
-    outputArea.textContent += inputText;
+    outputArea.textContent += inputText + "\n";
 }
 
 function deleteText() {
