@@ -1,25 +1,15 @@
 <?php
+require 'lib/password.php';
 // セッション開始
 session_start();
-
+include_once("dbInfo.php");
 
 // エラーメッセージ、登録完了メッセージの初期化
 $errorMessage = "";
 $signUpMessage = "";
 
 // セッション開始
-session_start();
-
-$db = [];
-// DBサーバのURL
-$db['host'] = "localhost";
-// ユーザー名
-$db['user'] = "root";
-// ユーザー名のパスワード
-$db['pass'] = "root";
-// データベース名
-$db['dbname'] = "YIGroupBlog";
-
+$db = getInfo();
 
 // ログインボタンが押された場合
 if (isset($_POST["signUp"])) {
@@ -39,12 +29,12 @@ if (isset($_POST["signUp"])) {
 
         // 2. ユーザIDとパスワードが入力されていたら認証する
         $dsn = sprintf('mysql: host=%s; dbname=%s; charset=utf8', $db['host'], $db['dbname']);
-
+        
         // 3. エラー処理
         try {
             $pdo = new PDO($dsn, $db['user'], $db['pass'], array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
 
-            $stmt = $pdo->prepare("INSERT INTO users(name, password) VALUES (?, ?)");
+            $stmt = $pdo->prepare("INSERT INTO userData(name, password) VALUES (?, ?)");
 
             $stmt->execute(array($username, password_hash($password, PASSWORD_DEFAULT)));  // パスワードのハッシュ化を行う（今回は文字列のみなのでbindValue(変数の内容が変わらない)を使用せず、直接excuteに渡しても問題ない）
             $userid = $pdo->lastinsertid();  // 登録した(DB側でauto_incrementした)IDを$useridに入れる
@@ -52,7 +42,9 @@ if (isset($_POST["signUp"])) {
             $signUpMessage = '登録が完了しました。あなたの登録IDは ' . $userid . ' です。パスワードは ' . $password . ' です。';  // ログイン時に使用するIDとパスワード
         } catch (PDOException $e) {
             $errorMessage = 'データベースエラー';
-            echo $e->getMessage();
+            // $e->getMessage() でエラー内容を参照可能（デバック時のみ表示）
+            // echo $e->getMessage();
+            echo $e->getMEssage();
         }
     } else if ($_POST["password"] != $_POST["password2"]) {
         $errorMessage = 'パスワードに誤りがあります。';
@@ -68,7 +60,7 @@ if (isset($_POST["signUp"])) {
     </head>
     <body>
         <h1>新規登録画面</h1>
-        <form id="loginForm" name="loginForm" action="index2.php" method="POST">
+        <form id="loginForm" name="loginForm" action="" method="POST">
             <fieldset>
                 <legend>新規登録フォーム</legend>
                 <div><font color="#ff0000"><?php echo htmlspecialchars($errorMessage, ENT_QUOTES); ?></font></div>
