@@ -1,0 +1,17 @@
+body {
+    font-family: sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+input {
+    padding: 5px;
+    margin: 5px;
+    width: 300px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+.submitButton {
+    background-color: rgb(40, 115, 201);
+    color: white;
+    width: 150px;
+}

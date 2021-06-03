@@ -1,0 +1,25 @@
+body {
+    font-family: sans-serif;
+}
+p {
+    margin: 10px 0;
+}
+input {
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px 0;
+    width: 200px;
+    border: 1px solid lightgray;
+}
+select {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    width: 180px;
+    margin-bottom: 10px;
+}
+.submit {
+    background-color: rgb(0, 110, 255);
+    color: white;
+    width: 140px;
+}

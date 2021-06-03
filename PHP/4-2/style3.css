@@ -1,0 +1,34 @@
+body {
+    font-family: sans-serif;
+}
+button {
+    color: white;
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.registerButton {
+    background-color: rgb(1, 132, 255);
+}
+.logoutButton {
+    background-color: gray;
+    margin-left: 5px;
+}
+table {
+    text-align: center;
+    position: relative;
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 700px;
+    border: 1px solid rgb(189, 189, 189);
+}
+tr {
+    height: 45px;
+}
+table th {
+    color: rgb(78, 78, 78);
+    background-color: rgb(230, 230, 230);
+}
+.deleteButton {
+    background-color: rgb(219, 65, 65);
+}
